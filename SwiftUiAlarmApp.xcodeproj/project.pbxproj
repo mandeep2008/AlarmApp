@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14043B32B8465AF006268A0 /* SwiftUiAlarmAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14043B22B8465AF006268A0 /* SwiftUiAlarmAppApp.swift */; };
+		E14043B52B8465AF006268A0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14043B42B8465AF006268A0 /* TabBarView.swift */; };
+		E14043B72B8465B1006268A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14043B62B8465B1006268A0 /* Assets.xcassets */; };
+		E14043BA2B8465B1006268A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14043B92B8465B1006268A0 /* Preview Assets.xcassets */; };
+		E14043C12B8465CB006268A0 /* WorldClockTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14043C02B8465CB006268A0 /* WorldClockTabView.swift */; };
+		E15F53D92B8F0F2B00E9838D /* AddedAlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F53D82B8F0F2B00E9838D /* AddedAlarmList.swift */; };
+		E15F53DC2B8F328800E9838D /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F53DB2B8F328800E9838D /* StopWatchView.swift */; };
+		E15F53DF2B8F489F00E9838D /* TimeZoneListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F53DE2B8F489F00E9838D /* TimeZoneListModel.swift */; };
+		E1D5F0482B8DE77400AA15E6 /* AlarmListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5F0472B8DE77400AA15E6 /* AlarmListTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E14043AF2B8465AF006268A0 /* SwiftUiAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14043B22B8465AF006268A0 /* SwiftUiAlarmAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiAlarmAppApp.swift; sourceTree = "<group>"; };
+		E14043B42B8465AF006268A0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		E14043B62B8465B1006268A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14043B92B8465B1006268A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E14043C02B8465CB006268A0 /* WorldClockTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTabView.swift; sourceTree = "<group>"; };
+		E15F53D82B8F0F2B00E9838D /* AddedAlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedAlarmList.swift; sourceTree = "<group>"; };
+		E15F53DB2B8F328800E9838D /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		E15F53DE2B8F489F00E9838D /* TimeZoneListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneListModel.swift; sourceTree = "<group>"; };
+		E1D5F0472B8DE77400AA15E6 /* AlarmListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14043AC2B8465AF006268A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14043A62B8465AF006268A0 = {
+			isa = PBXGroup;
+			children = (
+				E14043B12B8465AF006268A0 /* SwiftUiAlarmApp */,
+				E14043B02B8465AF006268A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14043B02B8465AF006268A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14043AF2B8465AF006268A0 /* SwiftUiAlarmApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14043B12B8465AF006268A0 /* SwiftUiAlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				E14043B22B8465AF006268A0 /* SwiftUiAlarmAppApp.swift */,
+				E15F53D02B8F0E1F00E9838D /* TabBar */,
+				E14043B62B8465B1006268A0 /* Assets.xcassets */,
+				E14043B82B8465B1006268A0 /* Preview Content */,
+			);
+			path = SwiftUiAlarmApp;
+			sourceTree = "<group>";
+		};
+		E14043B82B8465B1006268A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E14043B92B8465B1006268A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E15F53D02B8F0E1F00E9838D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E14043B42B8465AF006268A0 /* TabBarView.swift */,
+				E15F53D12B8F0E4000E9838D /* WorldClockTab */,
+				E15F53D42B8F0E8D00E9838D /* AlarmTab */,
+				E15F53D62B8F0EBE00E9838D /* StopWatchTab */,
+				E15F53D72B8F0ED200E9838D /* Timer */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E15F53D12B8F0E4000E9838D /* WorldClockTab */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53D32B8F0E7A00E9838D /* Model */,
+				E15F53D22B8F0E6600E9838D /* View */,
+			);
+			path = WorldClockTab;
+			sourceTree = "<group>";
+		};
+		E15F53D22B8F0E6600E9838D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E14043C02B8465CB006268A0 /* WorldClockTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E15F53D32B8F0E7A00E9838D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53DE2B8F489F00E9838D /* TimeZoneListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E15F53D42B8F0E8D00E9838D /* AlarmTab */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53DD2B8F468D00E9838D /* Model */,
+				E15F53D52B8F0EA400E9838D /* View */,
+			);
+			path = AlarmTab;
+			sourceTree = "<group>";
+		};
+		E15F53D52B8F0EA400E9838D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5F0472B8DE77400AA15E6 /* AlarmListTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E15F53D62B8F0EBE00E9838D /* StopWatchTab */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53DA2B8F326500E9838D /* View */,
+			);
+			path = StopWatchTab;
+			sourceTree = "<group>";
+		};
+		E15F53D72B8F0ED200E9838D /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		E15F53DA2B8F326500E9838D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53DB2B8F328800E9838D /* StopWatchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E15F53DD2B8F468D00E9838D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15F53D82B8F0F2B00E9838D /* AddedAlarmList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14043AE2B8465AF006268A0 /* SwiftUiAlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14043BD2B8465B1006268A0 /* Build configuration list for PBXNativeTarget "SwiftUiAlarmApp" */;
+			buildPhases = (
+				E14043AB2B8465AF006268A0 /* Sources */,
+				E14043AC2B8465AF006268A0 /* Frameworks */,
+				E14043AD2B8465AF006268A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUiAlarmApp;
+			productName = SwiftUiAlarmApp;
+			productReference = E14043AF2B8465AF006268A0 /* SwiftUiAlarmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14043A72B8465AF006268A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E14043AE2B8465AF006268A0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E14043AA2B8465AF006268A0 /* Build configuration list for PBXProject "SwiftUiAlarmApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14043A62B8465AF006268A0;
+			productRefGroup = E14043B02B8465AF006268A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14043AE2B8465AF006268A0 /* SwiftUiAlarmApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14043AD2B8465AF006268A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14043BA2B8465B1006268A0 /* Preview Assets.xcassets in Resources */,
+				E14043B72B8465B1006268A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14043AB2B8465AF006268A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15F53DC2B8F328800E9838D /* StopWatchView.swift in Sources */,
+				E14043B52B8465AF006268A0 /* TabBarView.swift in Sources */,
+				E14043B32B8465AF006268A0 /* SwiftUiAlarmAppApp.swift in Sources */,
+				E1D5F0482B8DE77400AA15E6 /* AlarmListTabView.swift in Sources */,
+				E15F53D92B8F0F2B00E9838D /* AddedAlarmList.swift in Sources */,
+				E14043C12B8465CB006268A0 /* WorldClockTabView.swift in Sources */,
+				E15F53DF2B8F489F00E9838D /* TimeZoneListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E14043BB2B8465B1006268A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E14043BC2B8465B1006268A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14043BE2B8465B1006268A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiAlarmApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = offsureit.SwiftUiAlarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E14043BF2B8465B1006268A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiAlarmApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = offsureit.SwiftUiAlarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14043AA2B8465AF006268A0 /* Build configuration list for PBXProject "SwiftUiAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14043BB2B8465B1006268A0 /* Debug */,
+				E14043BC2B8465B1006268A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14043BD2B8465B1006268A0 /* Build configuration list for PBXNativeTarget "SwiftUiAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14043BE2B8465B1006268A0 /* Debug */,
+				E14043BF2B8465B1006268A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14043A72B8465AF006268A0 /* Project object */;
+}
